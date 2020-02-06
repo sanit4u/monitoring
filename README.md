@@ -53,7 +53,7 @@ The prometheus and windows node exporter is covered in the prometheus section.
 This is a tool for visualize data from various datasources.
 
 ### version
- -[Grafana](https://grafana.com/grafana/download?platform=windows) version: 6.6.1 
+- [Grafana](https://grafana.com/grafana/download?platform=windows) version: 6.6.1 
  
 ### steps
 - download the .msi installer and execute the  execuatable.
