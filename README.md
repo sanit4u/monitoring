@@ -3,7 +3,14 @@ This gives an idea about installing prometheus and monitoring with Grafana in wi
 Prometheus is a pull based monitoring system, which pulls the monitoring statistics from the agent exporters and saves it in it's timeseries database. 
 Prometheus comes with a simple graph ui for simple graph visualiyation. However, to visualize the metrics in a dashboard, Grafana can be used.
 
-## Installation of Prometheus in windows
+Here 2 components are used to monitor the windows node metrics
+a. Prometheus
+b. windows node exporter
+c. grafana
+
+The prometheus and windows node exporter is covered in the prometheus section.
+
+## Prometheus 
 - The setup consists of prometheus server and the windows node exporter in a single host.
 
 ### versions
@@ -42,6 +49,28 @@ Prometheus comes with a simple graph ui for simple graph visualiyation. However,
  - A simple graph can be created out of a metrics with promethues.
   ![](prometheus_4.PNG)
   
+## Grafana 
+This is a tool for visualize data from various datasources.
 
-
+### version
+ -[Grafana](https://grafana.com/grafana/download?platform=windows) version: 6.6.1 
  
+### steps
+- download the .msi installer and execute the  execuatable.
+- By default, the port is 3000. To configure, download the windows binaries and configure the port.
+
+#### integrating grafana with prometheus 
+- To access the grafana, http://localhost:3000/
+- default username#password is admin#admin
+- add data source as prometheus. Give the prometheus endpoint in the URL section. The setting looks like below image.
+![](Datasource.PNG)
+
+- You can customize the dashboard. 
+- However, there is an existing dashboard available for windows node that can be find [here](https://grafana.com/grafana/dashboards/2129).
+- To import the existing dashboard, click "+" sign in the left side panel and click import.
+![](Grafana_dashBoard_import.png)
+
+- write the number 2129 and configure the settings as shown in the image and click import.
+![](import_2.PNG)
+
+- Then go the home and click Windows Node. The dashboard will look like the below image.
