@@ -30,4 +30,13 @@ Prometheus comes with a simple graph ui for simple graph visualiyation. However,
  
  ### Testing the setup
  - By default, prometheus server can be accessed using 9090 port.
+ - If the setup is correct, then prometheus can be accessed via http://localhost:9090/graph url. This should show like the below image
+ ![](prometheus_1.PNG)
+ 
+ - to check exporter agents, Go to the status->targets
+  ![](prometheus_2.PNG)
+ 
+ - click on the endpoint of the target, it will redirect you to a page looks like below image. This displays all the metrics from the window machine (my machine as i have installed in the sigle host).
+   ![](prometheus_3.PNG)
+ - A simple graph can be created out of a metrics with promethues.
  
