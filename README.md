@@ -30,3 +30,4 @@ Prometheus comes with a simple graph ui for simple graph visualiyation. However,
  
  ### Testing the setup
  - By default, prometheus server can be accessed using 9090 port.
+ 
