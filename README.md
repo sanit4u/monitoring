@@ -38,5 +38,10 @@ Prometheus comes with a simple graph ui for simple graph visualiyation. However,
  
  - click on the endpoint of the target, it will redirect you to a page looks like below image. This displays all the metrics from the window machine (my machine as i have installed in the sigle host).
    ![](prometheus_3.PNG)
+   
  - A simple graph can be created out of a metrics with promethues.
+  ![](prometheus_4.PNG)
+  
+
+
  
