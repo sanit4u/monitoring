@@ -31,7 +31,7 @@ The prometheus and windows node exporter is covered in the prometheus section.
       # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
       - job_name: 'prometheus'
         static_configs:
-           - targets: ['localhost:9182']
+       !    - targets: ['localhost:9182']
  ```
  - start the promehteus by executing the prometheus.exe 
  
