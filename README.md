@@ -74,3 +74,4 @@ This is a tool for visualize data from various datasources.
 ![](import_2.PNG)
 
 - Then go the home and click Windows Node. The dashboard will look like the below image.
+![](windows_dashboard.PNG)
