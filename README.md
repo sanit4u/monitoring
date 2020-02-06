@@ -1,4 +1,4 @@
-# monitoring
+# Monitoring with Prometheus & Grafana
 This gives an idea about installing prometheus and monitoring with Grafana in windows as a standalone system.
 Prometheus is a pull based monitoring system, which pulls the monitoring statistics from the agent exporters and saves it in it's timeseries database. 
 Prometheus comes with a simple graph ui for simple graph visualiyation. However, to visualize the metrics in a dashboard, Grafana can be used.
