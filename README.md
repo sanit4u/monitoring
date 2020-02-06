@@ -3,10 +3,10 @@ This gives an idea about installing prometheus and monitoring with Grafana in wi
 Prometheus is a pull based monitoring system, which pulls the monitoring statistics from the agent exporters and saves it in it's timeseries database. 
 Prometheus comes with a simple graph ui for simple graph visualiyation. However, to visualize the metrics in a dashboard, Grafana can be used.
 
-Here 2 components are used to monitor the windows node metrics
-a. Prometheus
-b. windows node exporter
-c. grafana
+Here 2 components are used to monitor the windows node metrics </br>
+    a. Prometheus </br>
+    b. windows node exporter </br>
+    c. grafana </br>
 
 The prometheus and windows node exporter is covered in the prometheus section.
 
