@@ -33,7 +33,7 @@ The prometheus and windows node exporter is covered in the prometheus section.
         static_configs:
         - targets: ['localhost:9182']
  ```
- - start the promehteus by executing the prometheus.exe 
+ - start the prometheus by executing the prometheus.exe 
  
  ### Testing the setup
  - By default, prometheus server can be accessed using 9090 port.
@@ -43,7 +43,7 @@ The prometheus and windows node exporter is covered in the prometheus section.
  - to check exporter agents, Go to the status->targets
   ![](prometheus_2.PNG)
  
- - click on the endpoint of the target, it will redirect you to a page looks like below image. This displays all the metrics from the window machine (my machine as i have installed in the sigle host).
+ - click on the endpoint of the target, it will redirect you to a page looks like below image. This displays all the metrics from the window machine (my machine as i have installed in the same host).
    ![](prometheus_3.PNG)
    
  - A simple graph can be created out of a metrics with promethues.
