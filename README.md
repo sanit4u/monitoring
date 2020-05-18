@@ -70,7 +70,8 @@ This is a tool for visualize data from various datasources.
 - To import the existing dashboard, click "+" sign in the left side panel and click import.
 ![](Grafana_dashBoard_import.png)
 
-- write the number 2129 and configure the settings as shown in the image and click import.
+- write the number 2129 and configure the settings as shown in the image and click import. 
+  This dashboard is specifically for windows node exporter. for linux exporter, use id 1860 to import. 
 ![](import_2.PNG)
 
 - Then navigate to home and click "Windows Node" dashboard. The dashboard will look like the below image.
